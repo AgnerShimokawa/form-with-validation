@@ -1,0 +1,95 @@
+html {
+    font-family: "Roboto", system-ui;
+    font-size: 15px;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    display: flex;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 110px;
+    margin: 145px 50px;
+    margin-right: 60px;
+}
+
+.container .text .text-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    padding: 10px 0;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.container .text .text-description {
+    color: #FFFFFF;
+}
+
+.container .form-box {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 380px;
+    padding: 12px 20px;
+    padding-left: 22px;
+    margin: 12px 50px;
+    margin-left: 0;
+}
+
+.container .form-box li {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form-box .input {
+    padding: 9px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.container .form-box .required-message {
+    font-size: 8px;
+    color: #F52E2E;
+    opacity: 0;
+}
+
+.container .form-box .not-filled {
+    border-color: #F52E2E;
+    opacity: 1;
+}
+
+.container .form-box .filled {
+    border-color: #00C22B;
+    
+}
+
+.container .form-box .send-btn {
+    background-color: #3CCC87;
+    height: 41px;
+    width: 298px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.container .form-box .send-btn:hover{
+    cursor: pointer;
+}
