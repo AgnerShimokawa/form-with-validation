@@ -18,12 +18,12 @@ The challenge was to create a form that checks if the boxes were filled once the
 ### Screenshot
 
 Desktop View
-![]()
+![](./src/design/Screenshot.png)
 
 ### Links
 
-- URL for hte solution on GitHUb: [Link GitHub]()
-- URL of the live site: [Link of site]()
+- URL for hte solution on GitHUb: [Link GitHub](https://github.com/AgnerShimokawa/form-with-validation)
+- URL of the live site: [Link of site](https://agnershimokawa.github.io/form-with-validation/)
 
 ## <h2 id="my-process">My Process</h2>
 
